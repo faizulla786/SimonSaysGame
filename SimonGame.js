@@ -81,7 +81,7 @@ function checkAnswer(idx){
             highest=level-1;
         }
         h2.innerHTML=`Game over! your score was <b> ${level-1}</b> ,
-        your high score is <b> ${highest} </b> , <br> press start key to start`;
+        your high score is <b> ${highest} </b> , <br> press start button to start Game`;
         // console.log("Game over",)
         document.querySelector("body").style.background="red";
         setTimeout(function(){
